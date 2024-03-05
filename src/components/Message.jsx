@@ -1,6 +1,7 @@
 import React from "react";
 
 const Message = ({ message }) => {
+  console.log(message);
   return (
     <div>
       <div className="chat chat-start">
@@ -12,7 +13,7 @@ const Message = ({ message }) => {
             />
           </div>
         </div>
-        <div className="chat-header">{message.name}</div>
+        <div className="chat-header">{message.displayName}</div>
         <div className="chat-bubble">{message.text}</div>
       </div>
     </div>

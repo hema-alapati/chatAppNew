@@ -7,7 +7,6 @@ import { AuthProvider } from "./context/AuthContext";
 
 function App() {
   return (
-    // <div className="w-full h-screen">
     <AuthProvider>
       <Navbar />
       <Routes>
@@ -21,7 +20,6 @@ function App() {
           }
         />
       </Routes>
-      {/* </div> */}
     </AuthProvider>
   );
 }
